@@ -107,28 +107,28 @@ small {
 .first {
     /* margin-top: 5px; */
     /* background-color: rgb(50, 50, 45); */
-    background: url("falafel.jpg");
+    background: url("https://i.ibb.co/7Ntw8pV/falafel.jpg");
     background-size:cover;
 
 }
 
 .second {
     background-color: rgba(70, 80, 67, 0.677);
-    background: url("shawarma.jpg");
+    background: url("https://i.ibb.co/bzLcf8d/shawarma.jpg");
     background-size:cover;
 
 }
 
 .third {
     background-color: rgb(50, 50, 45);
-    background: url("salad.jpg");
+    background: url("https://i.ibb.co/wrt58WR/salad.jpg");
     background-size:cover;
 
 }
 
 .dessert1 {
     background-color: rgba(70, 80, 67, 0.677);
-    background: url("cake.jpg");
+    background: url("https://i.ibb.co/x6Z3pJJ/cake.webp");
     background-size:cover;
 
 
@@ -136,7 +136,7 @@ small {
 
 .dessert2 {
     background-color: rgb(50, 50, 45);
-    background: url("iceCream.jpeg");
+    background: url("https://i.ibb.co/DMbwHFQ/iceCream.jpg");
     background-size:cover;
 
 
@@ -177,5 +177,8 @@ small {
     }
     small {
         font-size: 16px;
+    }
+    footer p {
+        font-size: 14px;
     }
 }
