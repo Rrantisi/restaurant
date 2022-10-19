@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width:800px;
+    background-color: rgba(0, 0, 0, 0.887);
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Berkshire Swash', cursive;
+    color: beige;
+}
+
+h1 {
+    text-shadow: 0 0 20px rgba(120, 13, 13, 0.961), 
+        0 0 10px rgb(40, 42, 36);
+}
+
+header h1 {
+    font-size: 15px;
+    /* margin-left: 10px; */
+    /* float: left; */
+    position: absolute;
+    left: 10px;
+
+}
+
+main h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: -35px 0 50px;
+}
+
+nav {
+    background-color: rgb(27, 24, 24);
+    padding: 10px 30px 5px 0;
+}
+
+ul {
+    margin: 0 0 0 400px;
+    padding: 0 0 10px 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 0 15px;
+}
+
+a {
+    color: rgba(250, 235, 215, 0.706);
+    /* color: rgba(255, 255, 255, 0.505); */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(251, 245, 236);
+    text-decoration: underline;
+}
+
+div {
+    border-radius: 10px;
+    height: 250px;
+    /* width: 800px; */
+    /* background-size:cover; */
+    position: relative;
+    margin: 25px 0 0 0;
+}
+
+main p {
+    line-height: 28px;
+    text-align: justify;
+    color: antiquewhite;
+    /* background: rgba(70, 80, 67, 0.677); */
+    background: linear-gradient(bottom, rgb(59, 40, 40, 1), rgba(59, 40, 40, 0.4));
+    background: -webkit-linear-gradient(bottom, rgb(59, 40, 40, 1), rgba(59, 40, 40, 0.4));
+    background: -moz-linear-gradient(bottom, rgb(59, 40, 40, 1), rgba(59, 40, 40, 0.4));
+    padding: 10px;
+    position:absolute;
+    bottom: 0; 
+    margin: 0;
+    height: 20px;
+    border-radius: 5px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+
+}
+
+small {
+    opacity: 0;
+}
+
+.show-description p {
+    height: 150px;
+}
+
+.show-description small {
+    opacity: 1;
+
+}
+
+.first {
+    /* margin-top: 5px; */
+    /* background-color: rgb(50, 50, 45); */
+    background: url("falafel.jpg");
+    background-size:cover;
+
+}
+
+.second {
+    background-color: rgba(70, 80, 67, 0.677);
+    background: url("shawarma.jpg");
+    background-size:cover;
+
+}
+
+.third {
+    background-color: rgb(50, 50, 45);
+    background: url("salad.jpg");
+    background-size:cover;
+
+}
+
+.dessert1 {
+    background-color: rgba(70, 80, 67, 0.677);
+    background: url("cake.jpg");
+    background-size:cover;
+
+
+}
+
+.dessert2 {
+    background-color: rgb(50, 50, 45);
+    background: url("iceCream.jpeg");
+    background-size:cover;
+
+
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        display: none;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        margin: -20px 0 30px 0;
+    }
+    div {
+        margin: 20px 12px 0 12px;
+    }
+    li {
+        display: none;
+    }
+    nav {
+        display: none;         
+     }
+    p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    a {
+      color: rgba(255, 255, 255, 0.6);
+    }
+    small {
+        font-size: 16px;
+    }
+}

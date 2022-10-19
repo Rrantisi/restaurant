@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Restaurant</title>
+        <link href="myRestaurant.css" rel="stylesheet">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>> </script>        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- <div class="container"> -->
+        <header>
+            <h1>Healthy Cuisine</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>Blog</a></li>
+                <li><a href='#'>Order</a></li>
+                <li><a href='#'>About us</a></li>
+                <!-- <li><a href='#'>Order</a></li> -->        
+            </ul>
+        </nav>
+        <!-- </div> -->
+        <main>
+            <h1>Healthy Cuisine</h1>
+            <h2>A Mediterranean Restaurant</h2>
+            <div class="first">
+                <p>Falafel<span class="price">$10</span><br />
+                <small>Hummus | Parsley | Cumin and Spices all blended together and fried. With your choice of spread: Tahini | Hummus | Garlic Spread. Add-ons: Pickles | Cucumber | Tomatoes<br /></small></p>
+            </div>
+            <div class="second">
+                <p>Shawarma<span class="price">$15</span><br />
+                    <small>Thinly sliced Beef meat served with your choice of spread:- Tahini | Garlic Spread | Hummus.
+                        Toppings:- Pickles | Cucumber | Tomatoes | Onion<br />
+                        And side of fries and soup of the day</small></p>
+            </div>
+            <div class="third">
+                <p>Salad<span class="price">$15</span><br />
+                    <small>Tabbouleh Salad: Cucumber | Tomatoes | Parsley | Bulgur | Olive oil | Salt | Lemon Juice. Fattoush: Cucumber | Tomatoes | Lettuce | Parsley | Carrot | Fried Bread Pieces </small></p>
+            </div>
+            <div class="dessert1">
+                <p>Piece of Cake<span class="price">$10</span><br />
+                    <small>Regular | Keto | Paleo. Cake flavors include: Carrot Cake | Chocolate Cake | Cheese Cake | Red Velvet Cake. Add-ons: Cherries | Berries | Mixed-fruit</small></p>
+            </div>
+            <div class="dessert2">
+                <p>Ice Cream<span class="price">$7</span><br />
+                <small>Ice Cream and Cake shot. Different flavors are available. Cherry Ice cream | Vanilla Ice cream | Chocolate Ice cream | Pistachio Ice cream | Oreo Ice cream | Cake options: Chocolate Cake | Red Velvet Cake | Vanilla Cake </small></p>
+            </div>
+        </main>
+        <footer>
+            <p>2022 Copyright Healthy Cuisine</p>
+        </footer>
+        <script>
+            $('div').on('click', function() {
+                $(this).toggleClass('show-description');
+            });
+        </script>
+    </body>
+</html>
