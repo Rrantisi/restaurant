@@ -4,7 +4,8 @@
         <title>My Restaurant</title>
         <link href="myRestaurant.css" rel="stylesheet">      
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="myRestaurant.js"></script>  
+        <script type ="text/javascript" src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
+
     </head>
     <body>
         <header>
@@ -43,6 +44,16 @@
                 <p>Ice Cream<span class="price">$7</span><br />
                 <small>Ice Cream and Cake shot. Different flavors are available. Cherry Ice cream | Vanilla Ice cream | Chocolate Ice cream | Pistachio Ice cream | Oreo Ice cream | Cake options: Chocolate Cake | Red Velvet Cake | Vanilla Cake </small></p>
             </div>
+            <button class="toTop" onclick="toTop()">Back to Top</button>
+            <script>
+                $('div').on('click', function() {
+                    $(this).toggleClass('show-description');
+                });
+
+                function toTop() {
+                    window.scrollTo({top:0, behavior: 'smooth'});
+                }
+            </script>
         </main>
         <footer>
             <p>2022 Copyright Healthy Cuisine</p>
